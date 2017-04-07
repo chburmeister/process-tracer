@@ -34,7 +34,7 @@ do
  			sqlite3 ${DB_NAME} "INSERT INTO ${DB_TABLE_NAME} (process_correlation_id, timestamp, rss_mem_kb) values ('${PROCESS_CORRELATION_ID}', ${TIMESTAMP}, ${RSS_MEM_KB});"
 		done
 	fi
-	sleep 2
+	sleep 1
 done
 
 
